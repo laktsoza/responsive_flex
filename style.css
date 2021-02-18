@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+    list-style: none;
+}
+
+.container {
+    width: 1920px;
+}
+
+.main {
+    background-image: url('./images/Blue-back.png');
+    background-repeat: no-repeat;
+    color: #ffffff;
+
+}
+
+.nav ul {
+    width: 822px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 25px 55px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #572BD9;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.main-header {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 43px 278px;
+}
+
+.logo-text {
+    font-size: 39px;
+    margin-left: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main h1, .why-us h1 , .perfect h1 , .doe h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.main p, .why-us p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btns {
+    text-align: center;
+}
+
+.hov {
+    margin: 45px;
+}
+.hov:hover {
+    background-color: #FFDD33;
+}
+
+.screen {
+    text-align: center;
+}
+
+.inkyy {
+    display: flex;
+    justify-content: space-around;
+    padding: 160px;
+}
+
+.inkyy img {
+    opacity: 0.3;
+}
+
+.inkyy img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.why-us {
+    background-color: #FBFCFE;
+}
+
+.guide div {
+    box-shadow: 0 2px 4px 0 rgba(117, 117, 117, 0.2), 0 3px 20px 0 rgba(117, 117, 117, 0.1);
+    border-radius: 15px;
+}
+
+.guide div:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 10px 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+
+.guide {
+    display: flex;
+    justify-content: space-around;
+    padding: 131px 250px;
+}
+
+.guide div {
+    padding: 87px 60px;
+    margin: 35px;
+}
+
+
+.guide div img {
+    padding: 15px;
+    background-color: rgb(238, 237, 237);
+    border-radius: 15px;
+    width: 35px;
+}
+
+.guide div h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.guide div p {
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+}
+
+.perfect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.perfect div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    padding-right: 250px;
+}
+
+.perfect div h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.perfect div p {
+    margin: 65px 0;
+}
+
+
+
+.ready h1, .ready p, .ready .btns .btn {
+    color: #ffffff;
+    margin: 0;
+}
+
+.ready {
+    padding-top: 115px;
+    height: 520px;
+}
+
+.ready h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.ready p {
+    margin: 60px 0 50px 0;
+}
+
+.ready {
+    background-image: url('./images/blue-back2.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+ 
+}
+
+.div-rev {
+    margin-left: 50px;
+   
+}
+
+.div-rev div {
+    padding: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-rev div p {
+    margin: 0;
+    padding: 0 30px;
+}
+
+.div-rev div img {
+    background-color: #EDFCF6;
+    padding: 15px;
+}
+
+.div-rev .btn {
+    margin-top: 20px;
+}
+
+.guys {
+    display: flex;
+    justify-content:  space-around;
+    padding: 0 80px;
+    margin-top: 140px;
+}
+
+.doe {
+    padding-top: 50px;
+    background-color: #FBFCFE;
+}
+
+.guys div {
+    width: 430px;
+    height: 420px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(117, 117, 117, 0.2), 0 3px 20px 0 rgba(117, 117, 117, 0.1);
+}
+
+.guys div img {
+    margin-top: -43px;
+}
+
+.guys div h3 {
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.guys div h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #7E92AC;
+}
+
+.guys div p {
+    font-size: 16px;
+    color: #7E92AC;
+    margin: 30px 0;
+    padding: 0 40px;
+}
+
+
