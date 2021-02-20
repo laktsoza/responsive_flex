@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+.nav ul li:hover {
+    opacity: 0.8;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -278,4 +282,31 @@
     padding: 0 40px;
 }
 
+.dots div {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.dots {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot1, .dot3 {
+    background-color: #CDDDF3;
+}
+
+.dot2 {
+    background-color: #6736F9;
+}
+
+.dark-blue {
+    height: 1300px;
+    background-image: url('./images/Mask\ Group\ 58.png');
+    color: #ffffff;
+}
 
